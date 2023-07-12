@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Event Registration</legend>
+
+            <!-- input name -->
+            <label for="name">Enter Name: </label>
+            <input type="text" name="name" id="name">
+        </br></br>
+
+
+            <!-- input email  -->
+            <label for="email">Enter Email: </label>
+            <input type="email" name="email" id="email">
+        </br></br>
+
+
+            <!-- input phone number  -->
+            <label for="phone">Phone number: </label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{10]}">
+        </br></br>
+
+
+            <!-- select Qualification  -->
+            <label for="qualification">Qualification</label>
+            <select name="qualification" id="qualification">
+                <option value="10">10th</option>
+                <option value="12">12th</option>
+                <option value="Bsc">B.Sc</option>
+                <option value="Msc">M.Sc</option>
+                <option value="Btech">B.Tech</option>
+                <option value="Mtech">M.Tech</option>
+            </select>
+        </br></br>
+
+
+            <!-- select topic of interest  -->
+            <label for="topic">Topic of Interest: </label>
+        </br>
+        
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML</label>
+        </br>
+
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS</label>
+        </br>
+
+            <input type="checkbox" id="JavaScript" name="JavaScript">
+            <label for="JavaScript">JavaScript</label>
+        </br></br>
+
+        
+            <!-- for comments  -->
+            <label for="comments">Comments: </label>
+        </br>
+            <textarea name="comments" id="comments" cols="30" rows="10">If any comments...</textarea>
+        </br></br>
+
+        
+            <!-- for submit  -->
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

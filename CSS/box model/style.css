@@ -1,0 +1,54 @@
+h1{
+    background-color: aqua;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: brown;
+    width: 500px;
+    border: solid black 4px;
+    padding: 20px;
+    margin: 30px;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    background-color: aqua;
+    border-style: dashed;
+    border-width: 2px;
+    width: 900px;
+    border: solid black 4px;
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.firstpara{
+    background-color: bisque;
+    border: solid black 4px;
+    border-radius: 59px;
+    border: solid black 4px;
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.secondpara{
+    background-color: chartreuse;
+    border-top-left-radius: 30px;
+    border: solid black 4px;
+    padding: 20px;
+    margin: 30px;
+    width: 500px;
+}
+
+.thirdpara{
+    background-color: coral;
+    border: solid black 4px;
+    padding: 20px;
+    margin: 30px;
+    width: 500px;
+}

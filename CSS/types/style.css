@@ -1,0 +1,23 @@
+/* External CSS */
+/* Internal and External CSS has precedence depending on where it is declared */
+
+/* selector : element  */
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* selector : ID  */
+#art1{
+    background-color: aquamarine;
+}
+
+/* selector : class */
+.paraclass{
+    background-color: chocolate;
+}
+
+/* selector : group */
+p,article{
+    width: 500px;
+}

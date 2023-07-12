@@ -1,0 +1,21 @@
+h1{
+    font-style: normal;
+    font-size: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 0px;
+}
+
+#firstpara{
+    font-size:large;
+    background-color: yellow;
+    color: blue;
+}
+
+#secondpara{
+    color: rgb(199, 199, 199)
+}
+
+#thirdpara{
+    background-color: #bbbb;
+    color: hsl(241, 93%, 47%);
+}

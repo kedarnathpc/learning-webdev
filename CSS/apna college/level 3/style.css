@@ -1,0 +1,24 @@
+div{
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  border: 2px solid black;
+  background-size: cover;
+}
+
+#box1{
+  background-image: url("fox.jpg");
+}
+
+#box2{
+  background-image: url("rabit.jpg");
+}
+
+#box3{
+  background-image: url("racoon.jpg");
+}
+
+#box4{
+  background-image: url("tiger.jpg");
+}

@@ -1,0 +1,7 @@
+Box model : 
+    content
+    padding
+    border
+    margin
+
+margin > border > padding > content
