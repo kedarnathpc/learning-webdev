@@ -20,6 +20,16 @@ main {
     flex-flow: row wrap;
 }
 
+main section h2 {
+    text-align: center;
+}
+
+main section {
+    border: 1px dotted ;
+    margin: 2px 2px;
+    padding: 2px auto;
+ }
+
 section {
     display: inline-block;
     padding: 10px;
@@ -27,7 +37,9 @@ section {
 }
 
 .myself {
-    padding: 10px;
+    border: 2px dotted red;
+    margin: 2px 2px;
+    padding: 10px auto;
 }
 
 
