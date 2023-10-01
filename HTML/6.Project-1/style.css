@@ -34,9 +34,11 @@ section {
     display: inline-block;
     padding: 10px;
     flex: 1 300px;
+    line-height: 1.5;
 }
 
 .myself {
+    line-height: 1.8;
     border: 2px dotted red;
     margin: 2px 2px;
     padding: 10px auto;
